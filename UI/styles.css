@@ -12,9 +12,17 @@ body {
     position: relative;
     margin: 8% auto;
     width: 600px;
-    height: 400px;
+    height: 450px;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .6);
+}
+
+#login-link {
+    font-size: 14px;
+}
+
+#login-link a {
+    color: #5C3551;
 }
 
 .left-box {
@@ -79,8 +87,8 @@ input[type="focus"]:focus {
     box-sizing: border-box;
     padding: 40px;
     width: 300px;
-    height: 400px;
+    height: 450px;
     background-image: url(images/logo.png);
     background-size: cover;
-    background-position: left;
+    background-position: -1cm;
 }
